@@ -1,0 +1,27 @@
+# RankShop plugin configuration.
+# Set the rank prices and messages here.
+
+# General messages
+plugin-enable-message: "RankShop plugin successfully loaded!"
+plugin-disable-message: "PurePerms plugin not found! The plugin is shutting down."
+no-groups-message: "Failed to load ranks from the PurePerms plugin!"
+only-player-message: "§cThis command can only be used by players."
+not-enough-money-message: "§cYou don't have enough money to buy the {rank} rank! Required amount: §a{price}"
+rank-purchase-success-message: "§aYou successfully purchased the {rank} rank!"
+
+# UI settings
+ui-title: "RankShop"
+ui-description: "Select your desired rank!"
+rank-button-format: "{rank}\n§ePrice: §a{price}"
+
+# Ranks and prices
+# Define ranks that you have already created.
+ranks: 
+    #Rank:
+    #    price: 1000
+    #    display_name: "§9[rank]§c"
+    #    info: "You can use /kit master"
+    #Rank2:
+    #    price: 1000
+    #    display_name: "§9[rank2]§c"
+    #    info: "You can use /kit master"

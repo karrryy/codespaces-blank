@@ -1,0 +1,18 @@
+name: RankShopUI
+main: RankShop\Main
+version: 1.0.0
+api: [5.0.0]
+author: KarolyyW
+description: A rank shop plugin with UI support and configurable ranks.
+depend:
+  - PurePerms
+  - EconomyAPI
+commands:
+  rankshop:
+    description: Open the rank shop.
+    usage: /rankshop
+    permission: rankshopui.command.rankshop
+permissions:
+  rankshopui.command.rankshop:
+    description: Allows the player to open the rank shop UI.
+    default: true
